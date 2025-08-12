@@ -33,8 +33,7 @@ ASCII_BANNER = r"""
 ██║╚██╔╝██║██╔══██╗        ██╔═══╝ ██╔══██╗██║██║╚██╗██║██║     ██╔══╝  
 ██║ ╚═╝ ██║██║  ██║███████╗██║     ██║  ██║██║██║ ╚████║╚██████╗███████╗
 ╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝╚═╝     ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝╚══════╝
-                 mr_prince
-            (Secret Code: PORTSCANNER-AI-2025-CLI)
+                        mr_prince
 """
 
 # Common port -> service hints (used for guessing even without banner)
@@ -290,3 +289,4 @@ def main(argv=None):
 
 if __name__ == "__main__":
     sys.exit(main())
+
