@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mr_prince"
+version = "2025.1"
+description = "mr_prince — PORTSCANNER-AI-2025-CLI, a high-performance Python-based port scanner"
+readme = "README.md"
+authors = [
+    { name = "Your Name", email = "you@example.com" }
+]
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+
+# No external scanning libraries — pure Python
+dependencies = []
+
+[project.scripts]
+mr = "mr_prince.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mr_prince*"]
+
+[tool.setuptools]
+package-dir = { "" = "." }
